@@ -48,5 +48,29 @@ public class InstrukcjaWarunkowaSwitch {
             default:
                 System.out.println("Brak skojarzeń");
         }
+
+        // zadanie. dla podanych ocen wyświetl je słownie
+        System.out.println("------------- Zadnie. Oceny.");
+        int ocena = 3;
+        switch (ocena){
+            case 1:
+                System.out.println("niedostateczna");
+                break;
+            case 2:
+                System.out.println("dopuszczający");
+                break;
+            case 3:
+                System.out.println("dostateczny");
+                break;
+            case 4:
+                System.out.println("dobry");
+                break;
+            case 5:
+                System.out.println("bardzo dobry");
+                break;
+            case 6:
+                System.out.println("celujący");
+                break;
+        }
     }
 }
